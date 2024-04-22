@@ -38,3 +38,12 @@ Briefly answer the following questions in the space provided:
 1. Is accuracy the best metric to use on this data? Why or why not?
 2. What activation functions did you choose for your output layers, and why?
 3. Can you name a few ways that this model could be improved?
+
+
+YOUR ANSWERS HERE
+
+1. Accuracy is not the best metric since the attrition and department classes are unbalanced. Use other evaluation metrics like Precision, Recall, F1-score, and AUC-ROC to measure performance.
+
+2. I used softmax activation to predict the department (department_output) because it has three classes and sigmoid activation to predict attrition (attrition_output) because it's a binary classification.
+
+3. Model performance may be improved by balancing targets, removing outliers, feature engineering, and adjusting network architecture (depth, width and different activation functions).
